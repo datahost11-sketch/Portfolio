@@ -29,7 +29,7 @@
             <div class="nav__menu">
                <ul class="nav__list">
                   <li>
-                     <a href="#about" class="nav__link">About Us</a>
+                     <a href="#about" class="nav__link">About</a>
                   </li>
                   <li>
                      <a href="#projects" class="nav__link">Projects</a>
@@ -45,7 +45,7 @@
       <!--==================== MAIN ====================-->
       <main class="main">
          <!-- CUSTOM CURSOR -->
-         
+         <div class="cursor"></div>
          <!--==================== HOME ====================-->
          <section class="home section">
             <div class="home__shadow"></div>
@@ -76,7 +76,7 @@
                   </a>
 
                </div>
-               <a href="assets/pdf/Anid-Cv.pdf" download target="_blank" class="home__cv">RESUME 
+               <a href="assets/pdf/Shahnawaz.pdf" download target="_blank" class="home__cv">RESUME 
                   <i class="ri-file-list-2-line"></i>
                </a>
             </div>
@@ -95,7 +95,7 @@
                   <p class="about__description">
                      I'm a web <b>developer and ML Engineer</b> passionate about experimenting with new <b>skills and creativity.</b> Driven by learning and curiosity, I'm always looking to explore and learn new development and design skills.
                   </p>
-                  <a href="assets/pdf/Anid-Cv.pdf" download target="_blank" class="button">Resume 
+                  <a href="assets/pdf/Shahnawaz.pdf" download target="_blank" class="button">Resume 
                      <i class="ri-file-list-2-line"></i>
                   </a>
                </div>
@@ -212,8 +212,9 @@
                         </div>
                         <div class="projects__image">
                            <img src="assets/img/projects-5.png" alt="img" class="projects__img">
-                           <a href="#" target="_blank" class="projects__button"></a>
-                           <i class="ri-arrow-right-up-long-line projects__button"></i>
+                           <a href="#" target="_blank" class="projects__button">
+                              <i class="ri-arrow-right-up-long-line"></i>
+                           </a>
                         </div>
                      </article>
                   </div>
@@ -225,13 +226,13 @@
          <!--==================== WORK ====================-->
          <section class="work section">
             <h2 class="section__title">
-               <span>My Work</span><br> Experience
+               <span>My Work</span><br> Internship
             </h2>
             <div class="work__container container grid">
                <div class="work__tabs">
                   <!-- Buttton Experience -->
                    <button class="work__button work-active" data-target="#experience">
-                     Experience <i class="ri-briefcase-2-line"></i></button>
+                     Internship <i class="ri-briefcase-2-line"></i></button>
                   <!-- Buttton Education -->
                    <button class="work__button" data-target="#education">
                      Education <i class="ri-graduation-cap-line"></i></button>
@@ -243,27 +244,25 @@
                      <div class="work__card">
                         <div class="work__data">
                            <div>
-                              <h1 class="work__title">Web <br> Developer</h1>
-                              <h3 class="work__subtitle">Google Inc</h3>
+                              <h1 class="work__title">AI and ML <br> Intern</h1>
+                              <h3 class="work__subtitle">Infosys Springboard</h3>
                            </div>
-                           <h2 class="work__year">2020</h2>
+                           <h2 class="work__year">MAY24~JUL24</h2>
                         </div>
                         <p class="work__description">
-                           Web developer handling technologies such as Angular, 
-                           databases, CMS, assisting with web optimization.
+                           Multi-Class Obesity Risk Prediction System An interactive Streamlit web application for real-time prediction
                         </p>
                      </div>
                      <div class="work__card">
                         <div class="work__data">
                            <div>
-                              <h1 class="work__title">SEO & Web <br> Optimization</h1>
-                              <h3 class="work__subtitle">Google Inc</h3>
+                              <h1 class="work__title">AI & Cloud <br> Intern</h1>
+                              <h3 class="work__subtitle">Edunet Foundation with AICTE</h3>
                            </div>
-                           <h2 class="work__year">Now</h2>
+                           <h2 class="work__year">DEC23~JAN24</h2>
                         </div>
                         <p class="work__description">
-                           Web developer handling technologies such as Angular, 
-                           databases, CMS, assisting with web optimization.
+                           Developed an AI model using IBM Watson and utilized Watson Machine Learning for model management
                         </p>
                      </div>
                    </div>
@@ -312,25 +311,86 @@
             </div>
          </section>
 
-         <!--==================== SERVICES ====================-->
-         <section class="services section">
-
-         </section>
-
-         <!--==================== TESTIMONIALS ====================-->
-         <section class="testimonials section">
-
-         </section>
 
          <!--==================== CONTACT ====================-->
          <section class="contact section" id="contact">
-            
+            <div class="contact__container container grid">
+               <div class="contact__data">
+                  <h2 class="section__title">Contact Me</h2>
+                  <p class="contact__description">Tell me about your next project</p>
+                  <button class="contact__button button" id="contact-btn">
+                     Copy email<i class="ri-file-copy-line"></i>
+                     <!-- Enter your email -->
+                      <span class="contact__email" id="contact-email">shkhan1.jmi@gmail.com</span>
+                  </button>
+               </div>
+               <div class="contact__content grid">
+                  <div class="contact__info grid">
+                     <div>
+                        <h3 class="contact__title">Email</h3>
+                        <address class="contact__address">shkhan1.jmi@gmail.com</address>
+                     </div>
+                     <div>
+                        <h3 class="contact__title">Location</h3>
+                        <address class="contact__address">Noida, UP</address>
+                     </div>
+                  </div>
+                  <div class="contact__social">
+                     <h3 class="contact__title">Social Media</h3>
+                     <div class="contact__links">
+                        <a href="#" target="_blank" class="contact__link">
+                           Linkedin
+                           <i class="ri-arrow-right-up-long-line"></i>
+                        </a>
+                        <a href="#" target="_blank" class="contact__link">
+                           GitHub
+                           <i class="ri-arrow-right-up-long-line"></i>
+                        </a>
+                        <a href="#" target="_blank" class="contact__link">
+                           Twitter
+                           <i class="ri-arrow-right-up-long-line"></i>
+                        </a>
+                        <a href="#" target="_blank" class="contact__link">
+                           Leetcode
+                           <i class="ri-arrow-right-up-long-line"></i>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="contact__write">
+                     <h3 class="contact__title">Write Me & we'll Talk</h3>
+                     <div class="contact__links">
+                        <a href="#" target="_blank" class="contact__link">
+                           WhatsApp
+                           <i class="ri-arrow-right-up-long-line"></i>
+                        </a>
+                        <a href="https://m.me/bedimcode" target="_blank" class="contact__link">
+                           Messenger
+                           <i class="ri-arrow-right-up-long-line"></i>
+                        </a>
+                        <a href="https://t.me/telegram" target="_blank" class="contact__link">
+                           Telegram
+                           <i class="ri-arrow-right-up-long-line"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="contact__link">
+                           Instagram
+                           <i class="ri-arrow-right-up-long-line"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
          </section>
       </main>
 
       <!--==================== FOOTER ====================-->
       <footer class="footer grid">
-         
+         <div class="blob-animate"></div>
+         <div class="footer__copy">
+            All Rights Reserved By <span>akh1ar</span>
+         </div>
+         <div class="footer__year">
+            &#169; <span id="footer-year"></span>
+         </div>
       </footer>
       
       <!--=============== SCROLLREVEAL ===============-->
